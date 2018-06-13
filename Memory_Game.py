@@ -1,5 +1,6 @@
 from bottle import route, run, get
 import bottle as b
+from sys import argv
 
 
 @route('/')
@@ -28,7 +29,7 @@ def music(filename):
 
 
 def main():
-    bottle.run(host='0.0.0.0', port=argv[1])
+    b.run(host='0.0.0.0', port=argv[1])
 
 
 if __name__ == '__main__':

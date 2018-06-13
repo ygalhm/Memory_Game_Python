@@ -1,1 +1,5 @@
-bottle
+bottle==0.12.13
+certifi==2018.4.16
+pipenv==2018.5.18
+virtualenv==16.0.0
+virtualenv-clone==0.3.0
