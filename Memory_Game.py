@@ -18,7 +18,7 @@ def stylesheets(filename):
     return b.static_file(filename, root='css')
 
 
-@get('/css/img/<filename:re:.*\.(jpg|png|gif|ico|jpeg)>')
+@get('/img/<filename:re:.*\.(jpg|png|gif|ico|jpeg)>')
 def img(filename):
     return b.static_file(filename, root='img')
 
