@@ -1,5 +1,4 @@
 var LionKing = {};
-alert('grosse tepu')
 var count = 0;
 var winCount = 0;
 var firstGuess = '';
