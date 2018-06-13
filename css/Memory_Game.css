@@ -6,7 +6,7 @@
 
 body {
   margin: 20px 0;
-  background-image: url('./img/background.jpg');
+  background-image: url('../img/memoBack.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -46,7 +46,7 @@ body {
 
 .front {
   z-index: 2;
-  background: #FAB942 url('./img/back.jpeg') no-repeat center center / contain;
+  background: #FAB942 url('../img/back.jpeg') no-repeat center center / contain;
 }
 
 .back {
